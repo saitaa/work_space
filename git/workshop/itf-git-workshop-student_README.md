@@ -41,8 +41,7 @@ concepts in to practice. We'll start with Git commands.
 
 - Create another folder named "git-workshop" in the "my-github" folder and go to "git-workshop" directory.
 ```
- mkdir git-workshop
- cd git-workshop
+
 ```
 
 <br> 
