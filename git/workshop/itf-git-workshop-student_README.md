@@ -148,10 +148,10 @@ concepts in to practice. We'll start with Git commands.
 ## Part 3 - Cloning a Remote Repo
 <br>
 
-8. Create a new remote repo named "git-workshop-1" in GitHub.
+9. Create a new remote repo named "git-workshop-1" in GitHub.
 <br>
 
-9.   Clone the remote repo
+10.   Clone the remote repo
 
 - go the terminal
 
@@ -164,80 +164,80 @@ concepts in to practice. We'll start with Git commands.
 - Check the files in the "git-workshop-1" and see the README.MD and .git file.
 
 ```
-ls -a
-```
-
-10. Create a file named **test1.txt**
 
 ```
 
-```
-
-11. Stage **test1.txt**
-
-```
-git add test1.txt
-```
-
-12. Store it to the local repository.
+11. Create a file named **test1.txt**
 
 ```
 
 ```
 
-13. Using Vim editor, create a file named **test2.txt** 
-
-```
-
-```
-14. Stage **test2.txt**
+12. Stage **test1.txt**
 
 ```
 
 ```
 
-15. Unstage **test2.txt**
-
-```
-
-
-```
-16. check the status of the directory
-
-```
-
-```
-17. Store the changes to the local repeository
-
+13. Store it to the local repository.
 
 ```
 
 ```
 
-17. List the commits
+14. Using Vim editor, create a file named **test2.txt** 
 
 ```
 
 ```
-18. switch to the first commit
-
-```
-
-```
-19. switch to the last commit.
+15. Stage **test2.txt**
 
 ```
 
 ```
 
+16. Unstage **test2.txt**
 
-20. Send the changes to the remote repository
+```
+
+
+```
+17. check the status of the directory
+
+```
+
+```
+18. Store the changes to the local repeository
+
 
 ```
 
 ```
 
-21. Go and check the remote repository, you will see the new files
+19. List the commits
+
+```
+
+```
+20. switch to the first commit
+
+```
+
+```
+21. switch to the last commit.
+
+```
+
+```
+
+
+22. Send the changes to the remote repository
+
+```
+
+```
+
+23. Go and check the remote repository, you will see the new files
 
 
 **<p align="center">&#9786; Thanks for Attending &#9997;</p>**

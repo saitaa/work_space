@@ -151,10 +151,10 @@ git commit -m "xxxx"
 ## Part 3 - Cloning a Remote Repo
 <br>
 
-8. Create a new remote repo named "git-workshop-1" in GitHub.
+9. Create a new remote repo named "git-workshop-1" in GitHub.
 <br>
 
-9.   Clone the remote repo
+10.   Clone the remote repo
 
 - go the terminal
 
@@ -170,47 +170,47 @@ git clone <remote repo URL>
 ls -a
 ```
 
-10. Create a file named **test1.txt**
+11. Create a file named **test1.txt**
 
 ```
 touch test1.txt
 ```
 
-11. Stage **test1.txt**
+12. Stage **test1.txt**
 
 ```
 git add test1.txt
 ```
 
-12. Store it to the local repository.
+13. Store it to the local repository.
 
 ```
 git commit -m "xxxxx"
 ```
 
-13. Using Vim editor, create a file named **test2.txt** 
+14. Using Vim editor, create a file named **test2.txt** 
 
 ```
 vim test2.txt
 ```
-14. Stage **test2.txt**
+15. Stage **test2.txt**
 
 ```
 git add test2.txt
 ```
 
-15. Unstage **test2.txt**
+16. Unstage **test2.txt**
 
 ```
 git rm --cached test2.txt
 
 ```
-16. check the status of the directory
+17. check the status of the directory
 
 ```
 git status
 ```
-17. Store the changes to the local repeository
+18. Store the changes to the local repeository
 
 
 ```
@@ -218,30 +218,30 @@ git add .
 git commit -m "xxxxxx"
 ```
 
-17. List the commits
+19. List the commits
 
 ```
 git log
 ```
-18. switch to the first commit
+20. switch to the first commit
 
 ```
 git checkout 'first commit ID'
 ```
-19. switch to the last commit.
+21. switch to the last commit.
 
 ```
 git checkout main
 ```
 
 
-20. Send the changes to the remote repository
+22. Send the changes to the remote repository
 
 ```
 git push
 ```
 
-21. Go and check the remote repository, you will see the new files
+23. Go and check the remote repository, you will see the new files
 
 
 **<p align="center">&#9786; Thanks for Attending &#9997;</p>**
