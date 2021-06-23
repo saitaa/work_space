@@ -8,7 +8,7 @@ def head():
     return render_template("index.html",  message = False )
 
 
-@app.route('/serdar')
+@app.route('/sait')
 def header():
     name = ["Serdar", "Fatih", "Ali", "Fatma", "Mostafa"]
     return render_template("body.html", object = name)
